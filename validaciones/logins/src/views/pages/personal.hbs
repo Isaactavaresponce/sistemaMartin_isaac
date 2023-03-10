@@ -1,0 +1,30 @@
+<body >
+  <right><a href="/alta">Alta</a></right>
+
+  <center>
+    <h2>Personal</h2>
+  </center>
+
+  <center>
+    <table class="content-table">
+  </center>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each per}}
+     <tr>
+      <td>{{idUser}}</td>
+      <td>{{nombre}}</td>
+      <td><button>Editar</button></td>
+      <td><button>Baja</button></td>
+    </tr>
+    {{/each}}
+  </tbody>
+
+</body>
